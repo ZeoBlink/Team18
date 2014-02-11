@@ -23,7 +23,6 @@ body
 	position: relative;;
 	color:#42D160;
 	background-color:4F4F4F;
-	align-items:center;
 }
 
 
@@ -66,7 +65,7 @@ h4
 {
 	font-family: Helvetica Neue Bold,Arial, sans-serif;
 	font-size: 2rem;
-	color:#4F4F4F;  
+	color:#8e8e8e;  
 }
 
 
