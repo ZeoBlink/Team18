@@ -27,7 +27,20 @@
 	box-sizing:border-box;
 }
 
-@media (max-width:513px){
+
+@media (max-width:1200px){
+	.col-header{
+		width:15%;
+	}
+}
+
+@media (max-width:800px){
+	.col-header{
+		width:20%;
+	}
+}
+
+@media (max-width:520px){
 	.col-header{
 		width:100%;
 	}

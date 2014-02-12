@@ -16,6 +16,16 @@ body
 	background-color:#4F4F4F;
 }
 
+#nav-left
+{
+	float: left;
+}
+
+#nav-right
+{
+	float: right;
+}
+
 #foot
 {
 	font-family: helvetica, calibri, sans-serif;
