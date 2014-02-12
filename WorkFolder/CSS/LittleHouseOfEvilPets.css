@@ -22,7 +22,7 @@ body
 	font-size: 1.2rem;
 	position: relative;;
 	color:#42D160;
-	background-color:4F4F4F;
+	background-color:#4F4F4F;
 }
 
 
@@ -54,14 +54,14 @@ img.centered {
 	margin-right: auto;
 }
 
-h3
+h1
 {
 	font-family: Nueva Std Bold,Arial, sans-serif;
 	font-size: 3rem;
 	color:#42D160;  
 }
 
-h4
+h2
 {
 	font-family: Helvetica Neue Bold,Arial, sans-serif;
 	font-size: 2rem;
