@@ -1,11 +1,14 @@
 
 [class*='col-']
 {
-	float:left;
+	float: left;
 	padding:0;
 	text-align:center;
 }
 
+.right{
+	float: right;
+}
 
 .col-header
 {

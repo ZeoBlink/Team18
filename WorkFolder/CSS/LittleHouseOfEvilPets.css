@@ -5,28 +5,26 @@ body
 	background-color: black;
 }
 
-/*
+#topheader{
+	background-color: #8e8e8e;
+}
 
 #head
 {
-	font-family: 'Aclonica', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
 	font-size: 1.5rem;
-	position: relative;
-	color:#0F0;
 	background-color:#8e8e8e;
 }
-*/
 
 #foot
 {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	color:#42D160;
 	background-color:#8e8e8e;
 }
-
-
 
 a {
 	color: #42D160;
@@ -74,7 +72,6 @@ h2
 	color:#8e8e8e;  
 }
 
-
 p
 {
 	font-family: 'Roboto Condensed', sans-serif;
@@ -83,6 +80,7 @@ p
 	color:#FFFFFF;
 }
 
+/*
 .site-navigation {
 	display: block;
 	font-family: 'Titillium Web', sans-serif;
@@ -148,4 +146,4 @@ p
 .site-navigation ul li ul li:hover {
 	background: #74b7e4;
 }
-
+*/
