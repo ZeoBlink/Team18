@@ -2,10 +2,10 @@ body
 {
 	font-family: 'Aclonica', sans-serif;
 	font-size: 10px; 
-	color: black;
 	background-color: black;
 }
 
+/*
 
 #head
 {
@@ -13,39 +13,43 @@ body
 	font-size: 1.5rem;
 	position: relative;
 	color:#0F0;
-	background-color:#4F4F4F;
+	background-color:#8e8e8e;
 }
+*/
 
 #foot
 {
 	font-family: 'Aclonica', sans-serif;
 	font-size: 1.2rem;
-	position: relative;;
 	color:#42D160;
-	background-color:4F4F4F;
+	background-color:#8e8e8e;
 }
 
 
 
 a {
-	color: 009245;
+	color: #42D160;
 	text-decoration:none;
+	background-color:#8e8e8e;
 }
 
 a:visited
 {
-	color: #009245; 
+	color: #42D160; 
 	text-decoration: none;
+	background-color:#8e8e8e;
 }
 
-a:visited{
-
+a:active {
+	color: #009245;
+	text-decoration: none;
+	background-color:#383838;
 }
 
 a:hover {
 	color: #FFFFFF; 
 	text-decoration: none;
-	background-color:#383838;
+	background-color:#8e8e8e;
 }
 
 img.centered {
@@ -54,14 +58,14 @@ img.centered {
 	margin-right: auto;
 }
 
-h3
+h1
 {
 	font-family: Nueva Std Bold,Arial, sans-serif;
 	font-size: 3rem;
 	color:#42D160;  
 }
 
-h4
+h2
 {
 	font-family: Helvetica Neue Bold,Arial, sans-serif;
 	font-size: 2rem;
