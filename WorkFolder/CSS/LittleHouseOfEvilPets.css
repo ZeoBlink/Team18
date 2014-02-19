@@ -1,6 +1,6 @@
 body 
 {
-	font-family: 'Aclonica', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 10px; 
 	background-color: black;
 }
@@ -19,7 +19,8 @@ body
 
 #foot
 {
-	font-family: 'Aclonica', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
 	font-size: 1.2rem;
 	color:#42D160;
 	background-color:#8e8e8e;
@@ -60,14 +61,15 @@ img.centered {
 
 h1
 {
-	font-family: Nueva Std Bold,Arial, sans-serif;
+	font-family: 'Aclonica', sans-serif;
 	font-size: 3rem;
 	color:#42D160;  
 }
 
 h2
 {
-	font-family: Helvetica Neue Bold,Arial, sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
 	font-size: 2rem;
 	color:#8e8e8e;  
 }
@@ -75,8 +77,9 @@ h2
 
 p
 {
-	font-family: Helvetica Neue Light,calibri, sans-serif
-	font-size: 5rem;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
 	color:#FFFFFF;
 }
 
