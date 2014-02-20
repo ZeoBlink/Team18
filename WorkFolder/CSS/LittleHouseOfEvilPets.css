@@ -5,11 +5,11 @@ body
 	background-color: black;
 }
 
-/*
+
 #topheader{
 	background-color: #8e8e8e;
 }
-*/
+
 
 #head
 {
@@ -21,14 +21,7 @@ body
 
 .sub-header a{
 	display: block;
-	z-index: 999;
 }
-
-/*
-#about-sub{
-	visibility: hidden;
-}
-*/
 
 #foot
 {
