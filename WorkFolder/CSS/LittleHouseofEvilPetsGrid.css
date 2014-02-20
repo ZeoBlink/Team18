@@ -15,6 +15,10 @@
 	width:10%;
 }
 
+.col-products{
+	width:33.3%;
+}
+
 .grid:after{
 	content:"";
 	display:block;
@@ -41,10 +45,16 @@
 	.col-header{
 		width:20%;
 	}
+	.col-products{
+		width: 50%;
+	}
 }
 
 @media (max-width:520px){
 	.col-header{
+		width:100%;
+	}
+	.col-products{
 		width:100%;
 	}
 }

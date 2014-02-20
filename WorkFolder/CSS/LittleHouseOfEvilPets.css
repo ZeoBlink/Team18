@@ -79,6 +79,17 @@ p
 	color:#FFFFFF;
 }
 
+
+
+
+/* css for product style page */
+
+.product {
+	height: auto;
+	width: auto;
+	max-width: 100%;
+}
+
 /*
 .site-navigation {
 	display: block;
