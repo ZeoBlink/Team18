@@ -35,13 +35,13 @@ body
 a {
 	color: #42D160;
 	text-decoration:none;
-	background-color:#8e8e8e;
+/*	background-color:#8e8e8e;*/
 }
 
 a:hover {
 	color: #FFFFFF; 
 	text-decoration: none;
-	background-color:#383838;
+/*	background-color:#383838;*/
 }
 
 a:active {
