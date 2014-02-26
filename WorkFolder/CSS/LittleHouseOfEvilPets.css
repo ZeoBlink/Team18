@@ -157,3 +157,85 @@ p
 	background: #74b7e4;
 }
 */
+
+
+
+/*New Menu Bar Stuff*/
+
+#nav
+{
+	background-color:#4F4F4F; 
+}
+ 
+#nav_wrapper
+{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#ul
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+#nav ul li
+{
+	display: inline-block;
+}
+
+#nav ul li:hover
+{
+	color:#42D160;
+	background-color: #383838;
+
+}
+
+#nav ul li a,visited
+{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#nav ul li a:hover
+{
+	color:#42D160;
+	text-decoration: none;
+}
+
+#nav ul li:hover ul
+{
+	display: block;	/*When hover over, first ul li, want something to happen to ul ul*/
+}
+
+#nav ul ul
+{
+	display:none; 
+	position: absolute;
+	background-color: #4F4F4F;
+	border: 1px solid #4F4F4F;
+/*	margin-left: -50px;*/
+	min-width: 200px;
+}
+
+#nav ul ul li
+{
+	display:inline-block;
+}
+
+#nav ul ul li a,visited
+{
+	color:#42D160;
+}
+
+#nav ul ul li a:hover
+{
+	color:#42D160;
+	margin-top: 0px;
+}
+/*New Menu Bar Stuff*/
