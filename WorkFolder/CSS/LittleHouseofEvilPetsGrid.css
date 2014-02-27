@@ -1,3 +1,9 @@
+.container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 [class*='col-']
 {
@@ -10,9 +16,17 @@
 	float: right;
 }
 
+#home{
+	width:20%;
+}
+
+#topheader{
+	width: 80%;
+}
+
 .col-header
 {
-	width:10%;
+	width:20%;
 }
 
 .col-products{
@@ -38,23 +52,32 @@
 	box-sizing:border-box;
 }
 
-
-@media (max-width:1200px){
-	.col-header{
-		width:15%;
+@media (max-width: 1200px){
+	#home{
+		width:12%
+	}
+	#topheader{
+		width: 88%;
 	}
 }
 
-@media (max-width:800px){
-	.col-header{
-		width:20%;
+@media (max-width:1000px){
+	.container{
+		width: 90%;
 	}
 	.col-products{
 		width: 50%;
 	}
 }
 
-@media (max-width:520px){
+@media (max-width:700px){
+	.container{
+		width: 95%;
+	}
+	#home{
+		display: block;
+		width: 100%;
+	}
 	.col-header{
 		width:100%;
 	}
