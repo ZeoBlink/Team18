@@ -227,7 +227,7 @@ p
 	display: block;	/*When hover over, first ul li, want something to happen to ul ul*/
 }
 
-#nav ul ul
+#nav ul ul /*I think it is this part that's messing up the sub-menu's weird space to the left.*/
 {
 	display:none; 
 	position: absolute;
