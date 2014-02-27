@@ -14,7 +14,6 @@ body
 	margin:0;
 }
 
-
 #topheader {
 	background-image: url('../Backgrounds/gray.png');
 	padding: 0;
@@ -69,12 +68,16 @@ img.centered {
 	padding: 1em 6em 4em 6em;
 }
 
+.title{
+	padding-bottom: 1em;
+}
+
 h1
 {
 	font-family: 'Aclonica', sans-serif;
 	font-size: 3rem;
 	color:#42D160;  
-	margin: 0.8em;
+	margin: 0;
 	text-align: center;
 }
 
