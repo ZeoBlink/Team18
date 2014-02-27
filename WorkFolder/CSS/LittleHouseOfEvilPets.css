@@ -8,8 +8,11 @@ body
 
 #topheader {
 	background-image: url('../Backgrounds/gray.png');
-	margin: 0;
 	padding: 0;
+}
+
+#head {
+	margin-top: 1em;
 }
 
 #logo{
@@ -30,6 +33,8 @@ body
 	font-weight: 400;
 	font-size: 1rem;
 	color:#42D160;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 a {
@@ -58,7 +63,7 @@ img.centered {
 
 .content{
 	margin: 1.5em 3.5em;
-	padding: 1em 2.5em;
+	padding: 1em 6em 4em 6em;
 }
 
 h1
@@ -66,7 +71,7 @@ h1
 	font-family: 'Aclonica', sans-serif;
 	font-size: 3rem;
 	color:#42D160;  
-	margin: 0.5em 0 1em 0;
+	margin: 0.8em;
 	text-align: center;
 }
 
@@ -76,7 +81,7 @@ h2
 	font-weight: 700;
 	font-size: 2rem;
 	color:#4f4f4f;  
-	margin: 0.5em 0;
+	margin: 0.8em 0;
 }
 
 p
@@ -245,6 +250,9 @@ p
 	background-color: #8e8e8e;
 	padding: 0;
 	margin: 0;
+	border-left: 0.2em solid black;
+	border-right: 0.2em solid black;
+	border-bottom: 0.2em solid black;
 /*	border: 1px solid #4F4F4F;*/
 /*	margin-left: -50px;*/
 /*	min-width: 200px;*/
