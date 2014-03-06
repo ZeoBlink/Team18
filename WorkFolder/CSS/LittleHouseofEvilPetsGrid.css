@@ -1,10 +1,11 @@
+/*container of page content*/
 .container {
 	width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-
+/*columns setup*/
 [class*='col-']
 {
 	float: left;
@@ -16,34 +17,37 @@
 	float: right;
 }
 
+/*logo*/
 #home{
 	width:20%;
 }
 
+/*navbar*/
 #topheader{
 	width: 80%;
 }
 
+/*navbar*/
 .col-header
 {
 	width:20%;
 }
 
+/*products grid*/
 .col-products{
 	width:33.3%;
 }
 
+/*footer*/
 .col-footer{
 	width: 20%;
 }
 
+/*clear*/
 .grid:after{
 	content:"";
 	display:block;
 	clear:both;
-
-
-	
 }
 
 *,*:after, *:before{
@@ -52,35 +56,44 @@
 	box-sizing:border-box;
 }
 
+/*when window size changes*/
 @media (max-width: 1200px){
+	/*logo*/
 	#home{
 		width:12%
 	}
+	/*navbar*/
 	#topheader{
 		width: 88%;
 	}
 }
 
 @media (max-width:1000px){
+	/*container for content*/
 	.container{
 		width: 90%;
 	}
+	/*products*/
 	.col-products{
 		width: 50%;
 	}
 }
 
 @media (max-width:700px){
+	/*container for content*/
 	.container{
 		width: 95%;
 	}
+	/*logo*/
 	#home{
 		display: block;
 		width: 100%;
 	}
+	/*navbar*/
 	.col-header{
 		width:100%;
 	}
+	/*products*/
 	.col-products{
 		width:100%;
 	}
