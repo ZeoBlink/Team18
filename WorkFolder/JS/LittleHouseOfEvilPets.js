@@ -17,7 +17,7 @@ $(document).ready(function(){
 		$("#nav").hide();
 	}
 	$("#menu").click(function(){
-		$("#nav").toggle();
+		$("#nav").slideToggle(800);
 	});
 	
 	//aligning top header
@@ -46,26 +46,30 @@ $(document).ready(function(){
     			"position":'relative'
     		});
 		}
-
+	});
 		
-		//menu button on mobile devices
-		$(window).resize(function(){
-			var windowWidth = $(window).width();
-			if (windowWidth>700){
-				$("#menu").css("display","none");
-				$("#nav").show();
-			}
-			else{
-				$("#menu").css("display","block");
-				$("#nav").hide();
-			}
-		});
-
-
-
+	//menu button on mobile devices
+	$(window).resize(function(){
+		var windowWidth = $(window).width();
+		if (windowWidth>700){
+			$("#menu").css("display","none");				
+			$("#nav").show();
+		}
+		else{
+			$("#menu").css("display","block");				
+			$("#nav").hide();
+		}
 	});
 
-	/* old navbar js
+	//page overlay and preview when product figure is clicked
+	$(".product-img").click(function(){
+		$("#overlay").show();
+	});
+
+
+});
+
+/* old navbar js
 	//hides subheader in nav bar at load of page
 	$(".sub-header").hide();
 
@@ -83,4 +87,3 @@ $(document).ready(function(){
 		$("#cart-sub").toggle();
 	});
 	*/
-});
