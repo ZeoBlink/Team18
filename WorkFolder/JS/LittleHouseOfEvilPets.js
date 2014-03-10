@@ -1,11 +1,26 @@
 $(document).ready(function(){
 
-	//top header to align to bottom of head div (so that it aligns with logo)
-	$('#topheader').css({
-    	"position":'relative',
-    	"top": (($('#head').height()) - (($('#topheader').height() * 1.4)))
-	});
+	//check window width on load
+	var windowWidth = $(window).width();
 
+	if (windowWidth>700){
+		//top header to align to bottom of head div (so that it aligns with logo)
+		$('#topheader').css({
+	    	"position":'relative',
+	    	"top": (($('#head').height()) - (($('#topheader').height() * 1.4)))
+		});
+	}	
+
+	//menu button when on mobile devices
+	if (windowWidth<700){
+		$("#menu").css("display","block");
+		$("#nav").hide();
+	}
+	$("#menu").click(function(){
+		$("#nav").toggle();
+	});
+	
+	//aligning top header
 	$(window).resize(function(){
 		var windowWidth = $(window).width();
 		if (windowWidth>1100){
@@ -26,11 +41,28 @@ $(document).ready(function(){
     			"top": (($('#head').height()) - (($('#topheader').height())))
 			});
 		}
-		else{
+		else {
 			$('#topheader').css({
     			"position":'relative'
     		});
 		}
+
+		
+		//menu button on mobile devices
+		$(window).resize(function(){
+			var windowWidth = $(window).width();
+			if (windowWidth>700){
+				$("#menu").css("display","none");
+				$("#nav").show();
+			}
+			else{
+				$("#menu").css("display","block");
+				$("#nav").hide();
+			}
+		});
+
+
+
 	});
 
 	/* old navbar js

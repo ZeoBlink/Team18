@@ -1,7 +1,6 @@
 <html>
 	<head>
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="CSS/LittleHouseOfEvilPets.css">
 		<link rel="stylesheet" type="text/css" href="CSS/LittleHouseofEvilPetsGrid.css">
 		<link href='http://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet' type='text/css'>
@@ -14,10 +13,11 @@
 		<div class="container-background">
 
 		<!-- New Menu Bar -->
-		<div id="head">
+		<header id="head">
 			<nav class="grid">
 				<a id="home" class="col-header" href="LittleHouseOfEvilPets.html"><img id="logo"src="Pictures/Logo.png" class="centered" height="158" width="145"></a>
 				<header id="topheader" class="col-header">
+					<a href="#" id="menu" class="col-header">Menu</a>
 					<div id="nav">
 						<div id="nav_wrapper">
 							<ul>
@@ -68,7 +68,7 @@
 					</div>
 				</header>
 			</nav>
-		</div>
+		</header>
 
 		<div class="content info title">
 			<h1> HomePage </h1>
@@ -91,8 +91,15 @@
 			</nav>
 		</footer>
 	</div>
-	</body>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 	<script type="text/javascript" src="JS/LittleHouseOfEvilPets.js"></script>
+	<!-- 
+      HTML5shiv allows IE below version 9 to work with HTML5 elements.
+      Note the conditionals before and after that do not load this script 
+      if browser is greater-than or equal-to IE9.
+    -->
+    <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+	</body>
 </html>
 
 

@@ -31,7 +31,7 @@
 
 /*navbar*/
 #topheader{
-	width: 80%;
+	width: 75%;
 }
 
 /*navbar*/
@@ -78,7 +78,7 @@
 	}
 	/*navbar*/
 	#topheader{
-		width: 88%;
+		width: 82%;
 	}
 	/*products*/
 	.col-products{
@@ -98,6 +98,9 @@
 	.container{
 		width: 90%;
 	}
+	#topheader{
+		width: 80%;
+	}
 }
 
 @media (max-width:700px){
@@ -110,9 +113,21 @@
 		display: block;
 		width: 100%;
 	}
+	#topheader{
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.title{
+		margin-top: 2em;
+	}
 	/*navbar*/
 	.col-header{
+		float: none;
+		display: block;
 		width:100%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 	/*products*/
 	.col-products{
