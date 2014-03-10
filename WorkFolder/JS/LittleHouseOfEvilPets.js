@@ -61,10 +61,32 @@ $(document).ready(function(){
 		}
 	});
 
-	//page overlay and preview when product figure is clicked
+	//page overlay when product figure is clicked
 	$(".product-img").click(function(){
 		$("#overlay").show();
+
+			//adding clicked content to preview 
+
 	});
+
+	for (var i=0; i<6; ++i){
+		var product = '#product' + (i+1);
+		var productNum = (i+1);
+		var productContent = '';
+			productContent += '<h2> Dog #' + productNum + '</h2>';
+			productContent += '<figure>';
+			productContent += '<a href="#!"><img id="product' + productNum + '" alt="image of evil dog" src="../Pictures/DogPlaceholder.jpg" class="product-img" height="300" width="500"></a>';
+			productContent += '<figcaption><p> small product description</p></figcaption>';
+			productContent += '</figure>';
+			productContent += '<h3 class="price"> $100 </h3>'
+			productContent += '<a href="#!" class="button add-to-cart"> Add to Cart </a>'
+
+		$(product).click(function(){
+			
+			$("#product-preview").append(productContent);
+			$("#product-preview").show();
+		})
+	}
 
 
 });
