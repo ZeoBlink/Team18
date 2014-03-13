@@ -59,7 +59,7 @@
 									<a href="#">Cart<img src="../Pictures/Arrow.png"></a>
 									<ul>
 										<li>
-											<a href="../Cart/LittleHouseOfEvilPets-CartPlaceholder.html">CartPlaceholder</a></li><li>
+											<a id="cart" href="../Cart/LittleHouseOfEvilPets-CartPlaceholder.html"></a></li><li>
 											<a href="../Cart/LittleHouseOfEvilPets-Checkout.html">Checkout</a>
 										</li>
 									</ul>
@@ -78,7 +78,7 @@
 			<div class="col-products content products">
 				<h2> Cat #1 </h2>
 				<figure>
-					<a href="#!"><img id="product1" alt="image of evil dog" src="../Pictures/Cat1.jpg" class="product-img" height="500" width="300"></a>
+					<a href="#!"><img id="product1" alt="image of evil cat" src="../Pictures/Cat1.jpg" class="product-img cat" height="300" width="500"></a>
 					<figcaption><p> small product description</p></figcaption>
 				</figure>
 				<h3 class="price"> $100 </h3>
@@ -87,7 +87,7 @@
 			<div class="col-products content products">
 				<h2> Cat #2 </h2>
 				<figure>
-					<a href="#!"><img id="product1" alt="image of evil dog" src="../Pictures/Cat2.jpg" class="product-img" height="500" width="300"></a>
+					<a href="#!"><img id="product2" alt="image of evil cat" src="../Pictures/Cat2.jpg" class="product-img cat" height="300" width="500"></a>
 					<figcaption><p> small product description</p></figcaption>
 				</figure>
 				<h3 class="price"> $100 </h3>
@@ -96,7 +96,7 @@
 			<div class="col-products content products">
 				<h2> Cat #3 </h2>
 				<figure>
-					<a href="#!"><img id="product1" alt="image of evil dog" src="../Pictures/Cat3.jpg" class="product-img" height="500" width="300"></a>
+					<a href="#!"><img id="product3" alt="image of evil cat" src="../Pictures/Cat3.jpg" class="product-img cat" height="300" width="500"></a>
 					<figcaption><p> small product description</p></figcaption>
 				</figure>
 				<h3 class="price"> $100 </h3>
@@ -105,7 +105,7 @@
 			<div class="col-products content products">
 				<h2> Cat #4 </h2>
 				<figure>
-					<a href="#!"><img id="product1" alt="image of evil dog" src="../Pictures/Cat4.jpg" class="product-img" height="500" width="300"></a>
+					<a href="#!"><img id="product4" alt="image of evil cat" src="../Pictures/Cat4.jpg" class="product-img cat" height="300" width="500"></a>
 					<figcaption><p> small product description</p></figcaption>
 				</figure>
 				<h3 class="price"> $100 </h3>
@@ -114,7 +114,7 @@
 			<div class="col-products content products">
 				<h2> Cat #5 </h2>
 				<figure>
-					<a href="#!"><img id="product1" alt="image of evil dog" src="../Pictures/Cat5.jpg" class="product-img" height="500" width="300"></a>
+					<a href="#!"><img id="product5" alt="image of evil cat" src="../Pictures/Cat5.jpg" class="product-img cat" height="300" width="500"></a>
 					<figcaption><p> small product description</p></figcaption>
 				</figure>
 				<h3 class="price"> $100 </h3>
@@ -123,7 +123,66 @@
 			<div class="col-products content products">
 				<h2> Cat #6 </h2>
 				<figure>
-					<a href="#!"><img id="product1" alt="image of evil dog" src="../Pictures/Cat6.jpg" class="product-img" height="500" width="300"></a>
+					<a href="#!"><img id="product6" alt="image of evil cat" src="../Pictures/Cat6.jpg" class="product-img cat" height="300" width="500"></a>
+					<figcaption><p> small product description</p></figcaption>
+				</figure>
+				<h3 class="price"> $100 </h3>
+				<a href="#!" class="button add-to-cart"> Add to Cart </a>
+			</div>
+		</div>
+
+		<div id="overlay"></div>
+
+		<div class="cat">
+			<div id="product1-preview" class="product-preview">
+				<h2> Cat #1 </h2>
+				<figure>
+					<a href="#!"><img alt="image of evil cat" src="../Pictures/Cat1.jpg" class="product-img" height="500" width="300"></a>
+					<figcaption><p> small product description</p></figcaption>
+				</figure>
+				<h3 class="price"> $100 </h3>
+				<a href="#!" class="button add-to-cart"> Add to Cart </a>
+			</div>
+			<div id="product2-preview" class="product-preview">
+				<h2> Cat #2 </h2>
+				<figure>
+					<a href="#!"><img alt="image of evil cat" src="../Pictures/Cat2.jpg" class="product-img" height="500" width="300"></a>
+					<figcaption><p> small product description</p></figcaption>
+				</figure>
+				<h3 class="price"> $100 </h3>
+				<a href="#!" class="button add-to-cart"> Add to Cart </a>
+			</div>
+			<div id="product3-preview" class="product-preview">
+				<h2> Cat #3 </h2>
+				<figure>
+					<a href="#!"><img alt="image of evil cat" src="../Pictures/Cat3.jpg" class="product-img" height="500" width="300"></a>
+					<figcaption><p> small product description</p></figcaption>
+				</figure>
+				<h3 class="price"> $100 </h3>
+				<a href="#!" class="button add-to-cart"> Add to Cart </a>
+			</div>
+			<div id="product4-preview" class="product-preview">
+				<h2> Cat #4 </h2>
+				<figure>
+					<a href="#!"><img alt="image of evil cat" src="../Pictures/Cat4.jpg" class="product-img" height="500" width="300"></a>
+					<figcaption><p> small product description</p></figcaption>
+				</figure>
+				<h3 class="price"> $100 </h3>
+				<a href="#!" class="button add-to-cart"> Add to Cart </a>
+			</div>
+			<div id="product5-preview" class="product-preview">
+				<h2> Cat #5 </h2>
+				<figure>
+					<a href="#!"><img alt="image of evil cat" src="../Pictures/Cat5.jpg" class="product-img" height="500" width="300"></a>
+					<figcaption><p> small product description</p></figcaption>
+				</figure>
+				<h3 class="price"> $100 </h3>
+				<a href="#!" class="button add-to-cart"> Add to Cart </a>
+			</div>
+			<div id="product6-preview" class="product-preview">
+				<h2> Cat #6 </h2>
+				<figure>
+					<a href="#!"><img alt="image of evil cat" src="../Pictures/Cat6.jpg" class="product-img" height="500" width="300"></a>
 					<figcaption><p> small product description</p></figcaption>
 				</figure>
 				<h3 class="price"> $100 </h3>

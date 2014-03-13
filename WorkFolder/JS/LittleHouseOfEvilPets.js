@@ -93,12 +93,49 @@ $(document).ready(function(){
 			$(".dog>.product-preview#product6-preview").show();
 		});
 		
+		//preview when cat products clicked
+		$(".cat#product1").click(function(){
+			$(".cat>.product-preview#product1-preview").show();
+		});
+		$(".cat#product2").click(function(){
+			$(".cat>.product-preview#product2-preview").show();
+		});
+		$(".cat#product3").click(function(){
+			$(".cat>.product-preview#product3-preview").show();
+		});
+		$(".cat#product4").click(function(){
+			$(".cat>.product-preview#product4-preview").show();
+		});
+		$(".cat#product5").click(function(){
+			$(".cat>.product-preview#product5-preview").show();
+		});
+		$(".cat#product6").click(function(){
+			$(".cat>.product-preview#product6-preview").show();
+		});
+
+		//preview when other products clicked
+		$(".other#product1").click(function(){
+			$(".other>.product-preview#product1-preview").show();
+		});
+		$(".other#product2").click(function(){
+			$(".other>.product-preview#product2-preview").show();
+		});
+		$(".other#product3").click(function(){
+			$(".other>.product-preview#product3-preview").show();
+		});
+
 		//hide preview and overlay when clicking outside preview window
 		$("#overlay").click(function(){
 				$(".product-preview").hide();
 				$("#overlay").hide();
 		})
 	}
+
+	//adding items to cart
+	$(".add-to-cart").click(function(){
+		var content = '<div class="cart-product"> <img src="../Pictures/Dog1.jpg" height="20" width="25"> Product </div>';
+		$("#cart").append(content);
+	});
 
 });
 
