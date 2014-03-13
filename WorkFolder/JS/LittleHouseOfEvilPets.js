@@ -68,7 +68,7 @@ $(document).ready(function(){
 		$(".product-img").click(function(){
 			$("#overlay").show();
 
-			//position the preview box to 
+			//position the preview box to top
 			var screenTop = $(document).scrollTop();
 			$(".product-preview").css('top', screenTop);
 		});
@@ -124,9 +124,50 @@ $(document).ready(function(){
 			$(".other>.product-preview#product3-preview").show();
 		});
 
+		//removing items from cart
+		$(".remove").click(function(){
+			//show overlay
+			$("#overlay").show();
+			//position the confirm box to middle
+			var screenMid = $(window).height()/2 - $(".confirm").height();
+			$(".confirm").css('top', screenMid);
+		});
+
+		$("#cart-item1>.remove").click(function(){
+			$("#confirm1").show();
+		});
+		$("#cart-item2>.remove").click(function(){
+			$("#confirm2").show();
+		});
+		$("#cart-item3>.remove").click(function(){
+			$("#confirm3").show();
+		});
+
+		$(".no").click(function(){
+			$(".confirm").hide();
+			$("#overlay").hide();
+		});
+
+		$("#confirm1>.yes").click(function(){
+			$("#cart-item1").remove();
+			$(".confirm").hide();
+			$("#overlay").hide();
+		});
+		$("#confirm2>.yes").click(function(){
+			$("#cart-item2").remove();
+			$(".confirm").hide();
+			$("#overlay").hide();
+		});
+		$("#confirm3>.yes").click(function(){
+			$("#cart-item3").remove();
+			$(".confirm").hide();
+			$("#overlay").hide();
+		});
+
 		//hide preview and overlay when clicking outside preview window
 		$("#overlay").click(function(){
 				$(".product-preview").hide();
+				$(".confirm").hide();
 				$("#overlay").hide();
 		})
 	}
@@ -136,7 +177,6 @@ $(document).ready(function(){
 		var content = '<div class="cart-product"> <img src="../Pictures/Dog1.jpg" height="20" width="25"> Product </div>';
 		$("#cart").append(content);
 	});
-
 });
 
 /* old navbar js
