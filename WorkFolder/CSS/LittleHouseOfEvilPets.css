@@ -372,6 +372,20 @@ h4
 	font-size: 2em;
 }
 
+fieldset{
+	width: 25rem;
+}
+
+label{
+	text-align: right;
+	width:10rem;
+	float:left;
+	font-weight: bold;
+}
+
+
+
+
 /*old stuff*/
 /*
 .sub-header a{
