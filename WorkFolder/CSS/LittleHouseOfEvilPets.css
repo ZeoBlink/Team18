@@ -374,6 +374,8 @@ h4
 
 fieldset{
 	width: 25rem;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 label{
